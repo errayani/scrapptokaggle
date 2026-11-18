@@ -8,8 +8,8 @@ import pandas as pd
 
 # إعدادات البحث (تقدر تزيد مدن أو مجالات أخرى هنا)
 CATEGORIES = ["Cabinet médical", "Cabinet dentaire", "Pharmacie", "Clinique", "Laboratoire d'analyses"]
-CITIES = ["Casablanca", "Rabat", "Fes", "Marrakech", "Tanger", "Agadir"]
-MAX_RESULTS_PER_QUERY = 60
+CITIES = ["Casablanca"]
+MAX_RESULTS_PER_QUERY = 25
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 KAGGLE_DATASET_SLUG = os.environ.get("KAGGLE_DATASET_SLUG")  # مثال: errayani/morocco-healthcare-places
