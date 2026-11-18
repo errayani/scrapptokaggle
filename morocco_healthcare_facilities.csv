@@ -1,0 +1,2 @@
+business_name,category_query,primary_type,city,postal_area,lat_approx,lng_approx,rating,reviews_count,business_status,has_phone,has_website,last_updated
+Cabinet Médical Exemple,Cabinet médical,doctor,Casablanca,20000,33.57,-7.59,4.8,25,OPERATIONAL,True,False,2026-11-18
