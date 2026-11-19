@@ -99,7 +99,7 @@ def main():
 
     df = pd.DataFrame(all_rows)
     # إزالة التكرار بناءً على اسم المؤسسة والمدينة
-    df.drop_duplicates(subset=["business_name", "city", "category_query"], inplace=True)
+    df = df.drop_duplicates(subset=["business_name", "city", "category_query"])
 
     csv_path = os.path.join(DATA_DIR, "morocco_healthcare_facilities.csv")
     df.to_csv(csv_path, index=False, encoding="utf-8-sig")
